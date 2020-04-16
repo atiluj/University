@@ -63,9 +63,7 @@ int main(){
         {
             int i, k, l, pom;
             scanf(" %d ", &i);
-            //scanf("%c", &cos);
             scanf(" %d ", &k);
-            //scanf("%c", &cos);
             scanf(" %d", &l);
 
             pom = tab[i][k+1];
