@@ -18,12 +18,10 @@ int main(){
         for(int j = 1; j < tab[i][0] + 1; j++){
             scanf(" %d", &x);
             tab[i][j] = x;
-            //scanf("%c", &cos);
         }
     }
 
     scanf(" %c", &znak);
-    //scanf("%c", &cos);
 
     while(znak != 'k'){
 
@@ -78,7 +76,6 @@ int main(){
         default:
                 break;
         }
-        //scanf(" %c", &cos);
         scanf(" %c", &znak);
     }
 
