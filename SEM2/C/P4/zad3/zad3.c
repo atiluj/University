@@ -1,4 +1,4 @@
-#include <stdlib.h>  //Julita Osman 314323 lista 4 zad. 3
+#include <stdlib.h> 
 #include <stdio.h>
 #include <stdbool.h>
 int main(){
