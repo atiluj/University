@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<title>L3Z2</title>
+	
+</head>
+
+<body>
+	<form>
+	
+		<label for="marka">Marka:</label> 
+		<select id="marka" name="marka" onchange="giveSelection(this.value)" > </select>  </br>
+		
+		<label for="marka">Model:</label>
+		<select id="model" name="model"></select>
+		</br>
+				
+		<label for="nowa">Nowa pozycja:</label>
+		<input type="text" name="nowa" id="nowa">
+		</br>
+		
+		<p>Dodaje: </p>
+		<input type="radio" name="wybor" id="markaRadio" value="marka">
+		<label for="marka"> MARKA </label> </br>
+		
+		<input type="radio" name="wybor" id="modelRadio" value="model">
+		<label for="model"> MODEL </label> </br>
+	
+	</form>
+	
+	<input type="button" id="dodaj" value="Dodaj" onclick="addElem()">
+
+</body>
+	<script type="text/javascript" src="zad2.js"></script>
+
+
+</html>

@@ -1,0 +1,22 @@
+body{ margin: 0;}
+
+.pesel{
+	border-radius: 14px;
+	color:blue;
+}
+
+.data{
+	border-radius: 14px;
+	color:blue;
+}
+
+.nr_konta{
+	border-radius: 14px;
+	color:blue;
+}
+
+.mail{
+	border-radius: 14px;
+	color:blue;
+}
+
