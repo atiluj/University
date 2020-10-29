@@ -39,7 +39,7 @@ void push() // wrzucenie do kolejki
     {
         printf("Podaj liczbe calkowita: \n");
         scanf("%d", &kolejka[ile].calkowita);
-        kolejka[ile].typ = 1; //zapamietuje jaki typ zosta³ w³o¿ony aby pamietac przy jego usuwaniu
+        kolejka[ile].typ = 1; //zapamietuje jaki typ zostal w³o¿ony aby pamietac przy jego usuwaniu
         ile++;
         printf("----- \n");
 
