@@ -8,7 +8,7 @@
 struct vector
 {
     int size; // ile mamy elementow
-    int capacity; // ile mo¿emy mieæ elementow
+    int capacity; // ile mozemy miec elementow
     int *data; // wskaznik na dane
 };
 
