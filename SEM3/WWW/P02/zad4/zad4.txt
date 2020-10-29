@@ -1,0 +1,14 @@
+POZYCJONOWANIE STATYCZNE (static)
+domyślne
+--------
+POZYCJONOWANIE ABSOLUTNE (absolute) 
+Element pozycjonowany absolutnie nie zabiera miejsca w dokumencie. To oznacza że jego obecność nie zmienia ułożenia innych elementów.
+--------
+POZYCJONOWANIE RELATYWNE (relative)
+Różnica między pozycjonowaniem absolutnym i relatywnym jest taka, że pozycja jest kalkulowana w inny sposób.
+Pozycja elementu który jest pozycjonowany relatywnie obliczana jest na podstawie oryginalnej pozycji w dokumencie. To oznacza, że przesuwasz element w prawo, lewo, dół lub w górę. Tym sposobem, element nadal zajmuje miejsce w dokumencie tam gdzie jest jego oryginalna pozycja.
+--------
+POZYCJONOWANIE USTALONE (fixed)
+Element wyświetlony w pozycji fixed zachowuje się jak w pozycji absolute, ale jego pozycja zawsze jest liczona względem okna przeglądarki internetowej. Element w pozycji fixed zawsze znajduje się w tym samym miejscu, w oknie przeglądarki internetowej, nawet jeżeli przesuwamy suwak.
+
+

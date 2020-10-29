@@ -1,0 +1,5 @@
+TEXT
+text-align: center służy do centrowania elementów w poziomie, ale tylko tych, które są elementami typu “inline” czyli znajdującymi się wewnątrz innych bloków (elementy typu inline to inline, inline-block, inline-table, inline-flex). 
+
+BLOCK
+Element blokowy, to rodzaj pojemnika na inne elementy, np. div. Da się go wyśrodkować, a tylko jego zawartość typu inline. Istnieje jednak metoda, aby wycentrować również elementy blokowe. W tym celu należy ustalić ich szerokość na mniejszą niż szerokość ekranu, a następnie zdefiniować automatyczny margines poziomy.

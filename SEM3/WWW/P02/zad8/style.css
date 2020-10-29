@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+}
+
+#container{
+    margin: 0;
+}
+
+nav{
+	font-family: Arial;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	aligne-items: center;
+	padding: 5px;
+	background-color: #343841;
+	width: 100%;
+	height: 33px;
+	color: #A0A0A0;
+	font-size: 71%
+}
+
+#menuL{
+    display: flex;
+    margin: 5px;
+}
+#menuR{
+    display: flex;
+    margin: 5px;
+}
+.menuL-option{
+    margin: 5px;
+	margin-left: 10px;
+}
+.menuR-option{
+	font-weight: bold;
+    margin: 5px;
+	margin-right: 18px;
+}
+
+#logo{
+    height: 74px;
+	width: 101%;
+    background-color: #006ca1;
+}
+
+.logo-img{
+    margin-left: 14%;
+}
+
+#info{
+	margin-left: 16%;
+	margin-right: 15%;
+	margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title{
+	margin-top: 10px;
+	font-size: 255%;
+	font-family: Arial;
+	color: #202020;
+}
+
+.news{
+	margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #EFEFEF;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.news-title{
+	font-family: Arial;
+	font-size: 180%;
+	color: #343841;
+}
+
+.news-info{
+	margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+	font-style: italic;
+	font-family: Arial;
+	color: #343841;
+	font-size: 70%;
+}
+
+.news-details{
+		font-family: Arial;
+		margin-top: 13px;
+		color: #343841;
+		font-size: 80%;
+}
+
+button
+{
+	height: 25px;
+	width: 125px;
+	justify-content: center;
+	text-align: center;
+	margin-left: 75%;
+	margin-right: 15%;
+	justify: flex-end;
+	border-color: #00669e;
+	color: white;
+	padding: 2px;
+	border-radius: 4px;
+	background: #00669e;
+	font-family: Arial;
+	font-size: 75%;
+}
+
+.more{
+	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-left: 16%;
+	margin-right: 15%;
+	display: flex;
+	justify-content: row;
+}
+
+.more-thing{
+	padding: 10px;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+ 
+.more-title{
+	font-family: Arial;
+	font-size: 260%;
+	color: #202020;
+}
+  
+.more-description{
+	margin-top: 8px;
+	font-family: Arial;
+	font-size: 80%;
+	color: #202020;
+}
+  
+.more-button
+{
+	margin-bottom: 30px;
+	margin-top: 15px;
+	width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    color:white;
+	background-color: #808080;
+	font-family: Arial;
+	font-size: 70%;
+}
+
+footer{
+	height: 40px;
+	font-size: 80%;
+	font-family: Arial;
+	background-color: #EFEFEF;
+}
+
+p{
+	padding: 13px;
+	justify-content: center;
+	margin-left: 16%;
+}
