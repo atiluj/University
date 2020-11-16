@@ -1,0 +1,22 @@
+
+.title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a{
+    font-size: 11px;
+}
+
+.link:hover{
+    color:red;
+}
+
+.desc{
+    font-size: 14px;
+}
+
+tr{
+    height: 100px;
+    min-width: 130px;
+}

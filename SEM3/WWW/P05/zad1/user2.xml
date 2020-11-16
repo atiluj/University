@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<user userid="1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="zad1.xsd">
+
+    <nr_konta>12340000901230000890144446</nr_konta>
+    <pesel>71031512093</pesel>
+    <data_ur>1971-03-15</data_ur>
+    <mail>nowak@gmail.com</mail>
+
+</user>

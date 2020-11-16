@@ -1,0 +1,32 @@
+<?xsd version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="user">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nr_konta">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="\d{26}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="pesel">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="\d{11}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="data_ur" type="xs:date"></xs:element>
+                <xs:element name="mail">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[^@]+@[^\.]+\..+"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="userid" type="xs:integer" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
