@@ -1,0 +1,78 @@
+<!DOCTYP html>
+<html lang = "pl">
+<head>
+	<meta charset="utf-8">
+	<title>L4Z4</title>
+	<link rel="stylesheet" href="zad4.css" type="text/css">
+	<link rel="stylesheet" href="jquery-ui.min.css" type="text/css"></script>
+	
+</head>
+
+<body>
+
+	<div id="new_user" title="Nowy użytkownik">
+	  <p class="tip">Wszystkie okna oznaczone * muszą zostać wypełnione.</p>
+	  <form>
+		<fieldset class="info">
+		  <label for="name" class="what">Imię*</label>
+		  <input type="text" name="name" id="name" placeholder="Imię" class="window" required><br/>
+		  <label for="surname" class="what">Nazwisko*</label>
+		  <input type="text" name="surname" id="surname" placeholder="nazwisko" class="window" required><br/>
+		  <label for="city" class="what">Miasto</label>
+		  <input type="text" name="city" id="city" placeholder="miasto" class="window"><br/>
+		  <label for="code" class="what">Kod pocztowy</label>
+		  <input type="text" name="code" id="code" placeholder="xx-xxx" class="window"><br/>
+		  <label for="birth_date" class="what">Data urodzenie*</label>
+		  <input type="text" name="birth_date" id="birth_date" placeholder="dd-mm-rrrr" class="window" required>
+		 
+		  <!-- Zatwierdzenie enterem -->
+		  <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+		</fieldset>
+	  </form>
+	</div>
+	
+	<div id="delete_user" title="Usuwanie użytkownika">
+	  <p class="tip">Czy na pewno chcesz usunąc użytkownika?</p>
+	 </div>
+	
+	<div id="users">
+	  <h1>Tabela użytkowników:</h1>
+	  <table id="user" >
+		<thead>
+		  <tr class="header">
+			<th>IMIĘ</th>
+			<th>NAZWISKO</th>
+			<th>MIASTO</th>
+			<th>KOD POCZTOWY</th>
+			<th>DATA URODZENIA</th>
+			<th></th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr class="data">
+			<td>Jan Kowalski</td>
+			<td>jan@sth.com</td>
+			<td>Żory</td>
+			<td>33-333</td>
+			<td>11/11/1991</td>
+			<td><button class="delete">USUŃ</button></td>
+		  </tr>
+		  <tr class="data">
+			<td>Agnieszka Nowak</td>
+			<td>aga@sth.com</td>
+			<td>Wrocławia</td>
+			<td>00-323</td>
+			<td>05/02/1959</td>
+			<td><button class="delete">USUŃ</button></td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
+	
+	<button id="save_user">DODAJ UŻYTKOWNIKA</button>
+
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script src="zad4.js"></script>
+</body>
+</html>
