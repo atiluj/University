@@ -1,0 +1,117 @@
+body
+{
+	margin: 0;
+	background-color: #C0C0C0;
+	color: #303845;
+	font-family: 'Lobster', sans-serif;
+	font-size: 28px;
+}
+
+.galeria
+{
+	width: 600px;
+	margin-left: 90px;
+	margin-top: 10px;
+	text-align: center;
+	float: left;
+}
+
+#con_guzik
+{
+	float: left;
+	width: 200px;
+	height: 630px;
+}
+
+#guzik
+{
+	position: relative;
+	left: 30%;
+	top: 45%;
+	width: 150px;
+	height: 40;
+	border: 4px solid #ffd700;
+}
+
+#guzik:hover
+{
+	border-color: #ff9900;
+}
+
+#guzik2
+{
+	position: relative;
+	left: 30%;
+	top: 48%;
+	width: 150px;
+	height: 40;
+	border: 4px solid #ffd700;
+}
+
+#guzik2:hover
+{
+	border-color: #ff9900;
+}
+
+#log
+{
+	float: left;
+	margin-top: 50px;
+	margin-left: 90px;
+	background-color: #C0C0C0;
+	color: #303845;
+	width: 270px;
+	height: 550px;
+	border: 4px solid #ffd700; 
+}
+
+.photoA
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	border: 4px solid #ffd700;
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out; /* animacja */
+}
+
+.photo
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	border: 4px solid #C0C0C0;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+}
+
+.photo:hover
+{
+	filter: brightness(100%);
+}
+
+#z1{ background-image: url("img/1.png");}
+#z2{ background-image: url("img/2.png");}
+#z3{ background-image: url("img/3.png");}
+#z4{ background-image: url("img/4.png");}
+
+#z5{ background-image: url("img/5.png");}
+#z6{ background-image: url("img/6.png");}
+#z7{ background-image: url("img/7.png");}
+#z8{ background-image: url("img/8.png");}
+
+#z9{ background-image: url("img/9.png");}
+#z10{ background-image: url("img/10.png");}
+#z11{ background-image: url("img/11.png");}
+#z12{ background-image: url("img/12.png");}
+
+#z13{ background-image: url("img/13.png");}
+#z14{ background-image: url("img/14.png");}
+#z15{ background-image: url("img/15.png");}
+#z16{ background-image: url("img/16.png");}
