@@ -1,0 +1,2 @@
+00301534962|Kamil|Podajmitalerz|mezczyzna|12.03.2020|21.06.2020
+0123456784|Adam|Miskonski|mezczyzna|21.06.2020|12.07.2020
