@@ -27,8 +27,8 @@ Inżynieria oprogramowania
 WWW  
 
 #### SEM 4
-Algorytmy i struktury danych
-Bazy Danych
-Rachunek prawdopodobieństwa i statystyka
-Kurs modelowania 3D i wizualizacji w programie SketchUp
-Testowanie Gier
+Algorytmy i struktury danych   
+Bazy Danych  
+Rachunek prawdopodobieństwa i statystyka  
+Kurs modelowania 3D i wizualizacji w programie SketchUp  
+Testowanie Gier  
