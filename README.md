@@ -34,8 +34,8 @@ Kurs modelowania 3D i wizualizacji w programie SketchUp
 Testowanie Gier  
 
 #### SEM 5
-Wybrane elementy praktyki projektowania oprogramowania
-Unity Game Development Course (kurs programowania gier w silniku Unity)
-Kurs rozszerzony języka Python
-Metody implementacji algorytmów
+Wybrane elementy praktyki projektowania oprogramowania  
+Unity Game Development Course (kurs programowania gier w silniku Unity)  
+Kurs rozszerzony języka Python   
+Metody implementacji algorytmów  
 
