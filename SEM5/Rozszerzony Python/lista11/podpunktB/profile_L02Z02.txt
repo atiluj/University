@@ -1,0 +1,33 @@
+Stworzenie profilu:
+python3 -m profile L02Z02.py
+
+1
+2
+4
+4
+14
+15
+15
+2
+2
+3
+31
+9999
+31622776
+
+
+         30 function calls in 6.289 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    6.277    6.277 :0(exec)
+       13    0.000    0.000    0.000    0.000 :0(print)
+        1    0.012    0.012    0.012    0.012 :0(setprofile)
+        1    0.000    0.000    6.277    6.277 L02Z02.py:2(<module>)
+       13    6.277    0.483    6.277    0.483 L02Z02.py:2(pierwiastek)
+        1    0.000    0.000    6.289    6.289 profile:0(<code object <module> at 0x7f7c3b2165b0, file "L02Z02.py", line 2>)
+        0    0.000             0.000          profile:0(profiler)
+
+Funkcja pierwiastek zajmuje dużo czasu dla dużych liczb. Sama generacja tego profilu zajmuje dla mniejszych liczb znaczącą
+cześć czasu. Samo wykonanie testowanego programu zajmuje mało czasu w porównaniu do czasu generowania profilu.

@@ -1,0 +1,6 @@
+sudo apt install python3-pip
+pip3 install pdoc3 -> zainstalował pdoc3
+/home/jey/.local/bin/pdoc --html L01Z02.py
+/home/jey/.local/bin/pdoc --html L02Z02.py
+google-chrome L01Z02.html
+google-chrome L02Z02.html  
