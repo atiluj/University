@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>L06-Z02</title>
+</head>
+
+<body>
+    <p>Zaznacz ulubione pory roku:</p>
+    <%- include('list-checkbox', {
+        items: [
+            { label: 'wiosna', defaultValue: false },
+            { label: 'lato', defaultValue: false },
+            { label: 'jesień', defaultValue: false },
+            { label: 'zima', defaultValue: false },
+            { label: 'żadne z powyższych', defaultValue: false }
+        ]
+    }) %>
+</body>
+
+</html>

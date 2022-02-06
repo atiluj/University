@@ -1,0 +1,75 @@
+DEKLARUJE
+
+1) . vs [] (do odwoływania się do składowych obiektu)
+– Jakie są różnice między tymi dwoma sposobami?
+Używając notacji z kropką identyfikacja właściwości może być tylko alfanumeryczna (i _ i $). Właściwości nie mogą zaczynać się od liczby, ani zawierać zmiennych. Notacja z kropka jest uzywana znacznie częściej.
+
+Używając notacji klamrowej właściwości muszą być stringiem. Moga zawierać znaki i spacje. 
+Po kropce nie da się odwołać do wyrażenia, które ma spacje. Możemy też użyć zmiennych aby dostać się do właściowości obiektu, np.
+let obj = {
+  cat: 'meow',
+  dog: 'woof'
+};
+let dog = 'cat';
+let sound = obj[dog];
+console.log(sound);
+// meow
+(przykład z https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781)
+
+2) Użycie argumentów innego typu niż string dla operatora [] dostępu do składowej
+obiektu.
+– Co się dzieje jeśli argumentem operatora jest liczba?
+Klucz zostaje zapisany jako string.
+var obj = {};
+obj[3] = 1;
+console.log(Object.keys(obj)); // ['3']
+
+– Co się dzieje jeśli argumentem operatora jest inny obiekt?
+Obiekt zamieniony jest na napis (toString).
+var obj = {};
+var obj2 = {};
+obj2[obj1] = 1;
+
+– Jaki wpływ na klucz pod jakim zapisana zostanie wartość ma programista w obu
+przypadkach?
+Możemy zdefiniować aby toString obiektów nam zwracało to co chcemy. Numeryczne wartości są zmieniane na napisy.
+const tab = [0, 1, 2, 3, 4, 5]; 
+console.log(tab["1"]); 
+tab["napis"] = 6; 
+console.log(tab);
+
+3) Użycie argumentów innego typu niż number dla operatora [] dostępu do tablicy.
+– Co się dzieje jeśli argumentem operatora jest napis?
+Napis jest zmieniany na liczbe jesli jest to możliwe.
+tab[obj3] = 7; 
+console.log(tab); 
+tab[new Number(3)] = 8; 
+console.log(tab);
+
+– Co się dzieje jeśli argumentem operatora jest inny obiekt?
+Jest tak jak w przypadku obiektów wywoływane toString
+tab["cos tam"] = 'cos tam'; 
+console.log(tab); 
+console.log("length = " + tab.length);
+
+– Czy i jak zmienia się zawartość tablicy jeśli zostanie do niej dopisana właściwość
+pod kluczem, który nie jest liczbą?
+Długość tablicy się nie zmienia, do tablicy są dodawane nowe atrybuty.
+tab.length = 2; 
+console.log("ustawione length = " + tab.length); 
+console.log(tab); 
+tab.length = 20; 
+console.log("ustawione length = " + tab.length); 
+console.log(tab); 
+console.log(tab[19]);
+
+– Czy można ustawiać wartość atrybutu length tablicy na inną wartość niż liczba
+elementów w tej tablicy? Co się dzieje jeśli ustawia się wartość mniejszą niż liczba
+elementów, a co jeśli ustawia się wartość większą niż liczba elementów?
+Można zmieniać wartość lenghth. 
+Gdy wartośc length jest mniejsza niż liczba elementów, to pozostałe zostają usunięte. 
+Gdy jest większa to dostajemy tablicę powiększoną o <x empty items>. 
+Gdy chcemy się odwołać do miejsca pustego to dostajemy undefined.
+
+
+

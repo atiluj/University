@@ -1,0 +1,154 @@
+DEKLARUJĘ WSZYSTKIE PODPUNKTY 
+
+u mnie: 
+sudo npm install -g javascripting
+javascripting
+
+---ZAD-A1--- INTRODUCTION
+console.log('hello')
+uruchomienie: javascripting verify introduction.js
+
+---ZAD-A2--- VARIABLES
+let example = 'some string'
+console.log(example)
+uruchomienie: javascripting verify variables.js
+
+---ZAD-B1--- STRINGS
+const someString = 'this is a string'
+console.log(someString)
+uruchomienie: javascripting verify strings.js
+
+---ZAD-B2--- STRING LENGTH
+const example = 'example string'
+console.log(example.length)
+uruchomienie: javascripting verify string-length.js
+
+---ZAD-B3--- REVISING STRINGS
+let pizza = 'pizza is alright'
+pizza = pizza.replace('alright','wonderful')
+console.log(pizza)
+uruchomienie: javascripting verify revising-strings.js
+
+---ZAD-C1--- NUMBERS
+let example = 123456789
+console.log(example)
+uruchomienie: javascripting verify numbers.js
+
+---ZAD-C2--- ROUNDING NUMBERS
+let roundUp = 1.5
+rounded = Math.round(roundUp)
+console.log(rounded)
+uruchomienie: javascripting verify roundng-numbers.js
+
+---ZAD-C3--- NUMBERS TO STRING
+let n = 128
+console.log(n.toString())
+uruchomienie: javascripting verify number-to-string.js
+
+---ZAD-D1--- IF STATEMENT
+let fruit = 'orange'
+if (fruit.length > 5){
+	console.log('The fruit name has more than five characters.')
+} else {
+	console.log('The fruit name has five characters or less.')
+}
+uruchomienie: javascripting verify if-statement.js
+(uruchomienie w pozostałych podpunktach analogicznie)
+
+---ZAD-D2--- FOR LOOP
+let total = 0
+const limit = 10
+for(let i=0; i<limit; i++){
+	total += i
+}
+console.log(total)
+
+---ZAD-E1--- ARRAYS
+const pizzaToppings = ['tomato sauce', 'cheese', 'pepperoni']
+console.log(pizzaToppings)
+
+---ZAD-E2--- ARRAY FILTERING
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+function evenNumbers(number){
+	return number%2 === 0
+}
+let filtered = numbers.filter(evenNumbers)
+console.log(filtered)
+
+---ZAD-E3--- ACCESSING ARRAY VALUES
+const food = ['apple', 'pizza', 'pear']
+console.log(food[1])
+
+---ZAD-E4--- LOOPING THROUGH ARRAYS
+let pets = ['cat', 'dog', 'rat']
+for(let i=0; i<pets.length; i++){
+	pets[i] = pets[i]+'s'
+}
+console.log(pets)
+
+---ZAD-F1--- OBJECTS
+const pizza = {
+	toppings: ['cheese', 'sauce', 'pepperoni'],
+	crust: 'deep dish',
+	serves: 2
+}
+console.log(pizza)
+
+---ZAD-F2--- OBJECT PROPERTIES
+const food = {
+	types: 'only pizza'
+}
+console.log(food.types)
+
+---ZAD-F3--- OBJECT KEYS
+const car = {
+	make: 'Honda',
+	model: 'Accord',
+	year: 2020
+}
+const keys = Object.keys(car)
+console.log(keys)
+	
+---ZAD-G1--- FUNCTIONS
+function eat(food){
+	return food + ' tasted really good.'
+}
+console.log(eat('bananas'))
+
+---ZAD-G2--- FUNCTION ARGUMENTS
+function math(x, y, z){
+	return y*z+x
+}
+console.log(math(53,61,67))
+
+---ZAD-G3--- SCOPE
+const a = 1;
+const b = 2;
+const c = 3;
+(function firstFunction () {  
+       const b = 5; 
+       const c = 6;  
+       
+       (function secondFunction () {  
+       		const b = 8;  
+       		console.log(`a: ${a}, b: ${b}, c: ${c}`);
+      
+         	(function thirdFunction () {  
+           		const a = 7; 
+           		const c = 9;  
+       
+           		(function fourthFunction () {  
+             			const a = 1; 
+             			const c = 8  
+           		})()  
+         	})()  
+       })()  
+})()  
+
+
+
+
+
+
+
+

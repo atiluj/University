@@ -1,0 +1,6 @@
+Potrafię zrobić, deklaruję zadanie.
+
+sudo apt install nodejs
+sudo n 14
+
+

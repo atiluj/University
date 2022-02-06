@@ -1,0 +1,11 @@
+TYPEOF
+- operator unarny
+- zwraca tekst reprezentujący typ wartości
+- złożone obiekty wypisuje jako "object"
+- przydatny do sprawdzenia, czy wartość jest liczbą, tekstem, czy obiektem
+
+INSTANCEOF 
+- operator binarny
+- zwraca wartość logiczną
+- przydatny do sprawdzenia, czy wartość jest konkretnego złożonego typu
+- przydatny, gdy tworzymy swoje własne typy
