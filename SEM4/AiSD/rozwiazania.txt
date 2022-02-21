@@ -29,3 +29,6 @@ kopiec - https://hackmd.io/_76DTW1vRxewe-M3eBSjpA?view
 
 egzamin:
 https://hackmd.io/Z_xns8wFToGkOZcfKpNxZw
+https://hackmd.io/-0_Y49V2R-m7W0_vL38TyA?fbclid=IwAR2XqnjUdoLyh-sr7AFD5SKS7LNojs6BILY3w66H_UieG1wBKFvpyLQM9xU
+https://hackmd.io/@bsobocki/subsequences
+
