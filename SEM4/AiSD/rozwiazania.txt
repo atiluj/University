@@ -18,6 +18,7 @@ LISTA 5
 https://hackmd.io/A7ckSXmLTQ6hqyGhsth5uw
 
 LISTA 6
+https://hackmd.io/Yu30OdWxQy6NyQmYA3hQKQ
 
 LISTA 7
 https://hackmd.io/d1nqaq5fRbWeFcrssdJ9OA
@@ -26,3 +27,5 @@ LISTA 8
 
 kopiec - https://hackmd.io/_76DTW1vRxewe-M3eBSjpA?view
 
+egzamin:
+https://hackmd.io/Z_xns8wFToGkOZcfKpNxZw
