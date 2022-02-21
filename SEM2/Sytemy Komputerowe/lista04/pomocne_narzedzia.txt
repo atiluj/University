@@ -1,0 +1,22 @@
+Pomocne narzędzia online
+Ułatwisz sobie naukę asemblera używając wymienionych narzędzi, udostępnionych jako aplikacje w chmurze,  z interfejsem webowym. 
+
+1. OnlineGDB
+Adres: https://www.onlinegdb.com/online_gcc_assembler
+
+Umożliwia wpisane, skompilowanie i uruchomienie programu w asemblerze x86_64. Możesz go użyć do zapoznania się z semantyką poszczególnych instrukcji. Dla wygody dostarczam szkielet programu (link) do wklejenia w okno edytora.
+
+2. Godbolt Compiler Explorer
+Adres: https://godbolt.org/
+
+Tłumaczy na bieżąco kod w języku C na asembler.  Z listy kompilatorów wybierz x86-64 gcc 8.3.  W okienku, po prawej stronie tej listy możesz wpisywać opcje kompilatora. Wyczyść pole wyboru (checkbox) Intel.
+
+Zobacz, jak przykładowy kod tłumaczony jest z flagami (opcjami), kolejno: -O0, -O1, -O2, -O3 oraz opcją -Og. Pierwsze 4 flagi to kolejne poziomy optymalizacji. Opcja -Og nakazuje kompilatorowi zaniechanie optymalizacji, które zmieniłyby strukturę kodu w sposób utrudniający porównianie kodu źródłowego z wynikowym. Kod wygenerowany z flagą -O0 operuje na stosie i  będzie niezrozumiały przed 3-cim wykładem. W swoich eksperymentach używaj flagi -Og.
+
+Możesz zacząć od takiego kodu: 
+#include<stdint.h>
+
+int32_t square(int32_t num) {
+return num*num + 7;
+}
+Testuj różne wyrażenia arytmetyczne. Możesz też deklarować zmienne, funkcje, pisać pętle, używać różnych poziomów optymalizacji itp, ale wygenerowany kod asemblerowy będzie niezrozumiały przed wykładem 3. Deklarując zmienną lokalną możesz  użyć słowa kluczowego register (np. register int32_t result;) by zachęcić kompilator do przypisania zmiennej rejestrowi, a nie miejscu w pamięci.

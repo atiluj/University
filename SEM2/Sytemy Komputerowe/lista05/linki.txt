@@ -1,0 +1,3 @@
+http://www.unknownroad.com/rtfm/gdbtut/
+https://sourceware.org/binutils/docs-2.26/as/Pseudo-Ops.html
+
