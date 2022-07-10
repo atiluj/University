@@ -40,10 +40,10 @@ Kurs rozszerzony języka Python
 Metody implementacji algorytmów  
 
 #### Sem 6
-Sztuczna inteligencja
-Projektowanie obiektowe oprogramowania
-Sieci komputerowe
-Systemy rozproszone
+Sztuczna inteligencja  
+Projektowanie obiektowe oprogramowania  
+Sieci komputerowe  
+Systemy rozproszone  
 
 
 
