@@ -39,3 +39,12 @@ Unity Game Development Course (kurs programowania gier w silniku Unity)
 Kurs rozszerzony języka Python   
 Metody implementacji algorytmów  
 
+#### Sem 6
+Sztuczna inteligencja
+Projektowanie obiektowe oprogramowania
+Sieci komputerowe
+Systemy rozproszone
+
+
+
+
